@@ -1,0 +1,130 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content:center;
+    align-items:center;
+}
+
+    #flex-end {
+        justify-content: flex-end;
+    }
+
+    #section-1 {
+        display: flex;
+        width:100%;
+        height: 80px;
+        padding-top:10px;
+    }
+
+    #section-2 {
+        display: flex;
+        width:100%;
+    }
+    #google-image {
+        background-image: url("../images/google-display-original.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:90px;
+        height:30px;
+        border: 0px solid azure;
+    }
+    #search-bar {
+        height: 15px;
+        width: 70%;
+        border-style: solid;
+        border-width: 1px;
+        border-color:lightgray;
+        border-radius: 15px;
+        background:whitesmoke;
+        margin-bottom:10px;
+    }
+
+    #search-options-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
+
+    #search-options-box {
+        height: 8px;
+        width:50px;
+        margin:4px;
+        padding:2px;
+        background: whitesmoke;
+        color: grey;
+        text-align: center;
+        
+        font-size: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid lightgrey;
+    }
+
+.block {
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 18px;
+    text-align: center;
+    color:grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:1px;
+    margin: 3px;
+}
+
+#block-logo-user {
+    background-image: url("../images/user-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    width:18px;
+    margin:0px 2px;
+}
+
+#block-logo-icon {
+    background-image: url("../images/logo_small.png");
+    background-repeat: no-repeat;
+    opacity: .55;
+    width:18px;
+    margin:0px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+#grid {
+    background-image:url("../images/google-logos.png");
+    background-position: -132px -38px;
+    opacity: .55;
+    }
+
+#google-image {
+    background-image: url("../images/google-display-original.png");
+    background-repeat: no-repeat;
+    width:92px;
+    height:272px;
+    position: absolute;
+    left:calc(50% - 272px/2);
+} */
