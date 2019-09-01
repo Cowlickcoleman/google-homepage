@@ -18,10 +18,12 @@
 </div>
 <!-- Search Section -->
 <div class="flex-container" id="section-2">
-    <div id="search-bar"></div>
+    <form id= "search-bar" action="http://www.google.com/search" method="GET">
+        <input type="text" name="q"/>
+    </form>    
     <div id="search-options-section">
-        <div id="search-options-box">Search</div>
-        <div id="search-options-box">I'm Feeling Lucky</div>
+        <input id="search-options-box" type="submit" value="Search" />
+        <input id="search-options-box" type="submit" value="I'm Feeling Lucky" />
     </div>
 </div>
 </body>
